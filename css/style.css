@@ -188,7 +188,7 @@ h6 {
 .header {
   background: -webkit-gradient(linear, left top, left bottom, from(rgb(179, 81, 179)), to(#1ad358));
   background: -o-linear-gradient(top, rgb(179, 81, 179), #1ad358);
-  background: linear-gradient(top, rgb(179, 81, 179), #1ad358);
+  background: linear-gradient(to bottom, rgb(179, 81, 179), #1ad358);
 }
 
 .header__inner {
@@ -411,7 +411,7 @@ h6 {
   padding-top: 3.125rem;
   background: -webkit-gradient(linear, left bottom, left top, from(rgb(179, 81, 179)), to(#1ad358));
   background: -o-linear-gradient(bottom, rgb(179, 81, 179), #1ad358);
-  background: linear-gradient(bottom, rgb(179, 81, 179), #1ad358);
+  background: linear-gradient(to top, rgb(179, 81, 179), #1ad358);
 }
 
 .navigation__list {
