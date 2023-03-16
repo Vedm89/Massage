@@ -409,7 +409,9 @@ h6 {
 
 .navigation {
   padding-top: 3.125rem;
-  background-image: -o-linear-gradient(bottom, rgb(179, 81, 179), #1ad358);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgb(179, 81, 179)), to(#1ad358));
+  background: -o-linear-gradient(bottom, rgb(179, 81, 179), #1ad358);
+  background: linear-gradient(bottom, rgb(179, 81, 179), #1ad358);
 }
 
 .navigation__list {
