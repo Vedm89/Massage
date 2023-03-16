@@ -185,10 +185,11 @@ h6 {
      object-fit: contain;
 }
 
-.header {
+.header__wrapper {
   background: -webkit-gradient(linear, left top, left bottom, from(rgb(179, 81, 179)), to(#1ad358));
   background: -o-linear-gradient(top, rgb(179, 81, 179), #1ad358);
   background: linear-gradient(to bottom, rgb(179, 81, 179), #1ad358);
+  padding-top: 3.125rem;
 }
 
 .header__inner {
@@ -201,7 +202,6 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 3.125rem;
   padding: 0.9375rem 0;
   position: relative;
 }
